@@ -52,11 +52,7 @@ ul{
     grid-column: 2;
     grid-column: span 3;
 }
-.profileGrid img{
-    width: auto;
-    height: 600px;
-    
-}
+
 
 }
 .familyGrid{
@@ -80,11 +76,13 @@ ul{
     width: 100%;
     height: auto;
     max-width: 400px;
+    min-width: 350px;
     margin: 0 auto;
   
 }
 .textGrid{
     width: 100%;
+  
    max-width: 1200px;
 }
 

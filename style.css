@@ -39,54 +39,54 @@ ul{
 @media(min-width: 1250px){
     .homeGrid{
         display: grid;
-        
          gap: 25px;
          grid-template-columns: repeat(auto-fit,(240px, 1fr));         
          grid-template-rows: auto;
          font-size: 25px;
          margin-top: 25px;
-       
- 
     }
-.familyGrid{
-    text-align: center;
-}
 
-.profileGrid{
-    grid-row: 2;
-    grid-column: 1;
-    
-}
 
 .textGrid{
     grid-row: 2;
-   
     grid-column: 2;
     grid-column: span 3;
 }
-.rotcGrid{
-    grid-row: 3;
-    grid-column: 1;
+.profileGrid img{
+    width: auto;
+    height: 600px;
     
 }
-.fratGrid{
-    grid-row: 3;
-    grid-column: 2;
-}
-.fratGrid img{
-    height: 300px;
-    width:auto;
-}
-.paintballGrid{
-    grid-row: 3;
-    grid-column: 3;
-}
-.paintballGrid img{
-    height: 300px;
-    width:auto;
-}
-}
 
+}
+.familyGrid{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.familyGrid img{
+    height: auto;
+    max-width: 800px;
+    width: 100%;
+
+}
+.profileGrid{
+    grid-row: 2;
+    grid-column: 1;
+    text-align: center;
+    
+}
+.profileGrid img{
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    margin: 0 auto;
+  
+}
+.textGrid{
+    width: 100%;
+   max-width: 1200px;
+}
 
 
 .gridFix{
@@ -95,7 +95,7 @@ ul{
    
 }
 
-
+/*portfolio*/
 
 @media(min-width: 1150px){
     .websitePhotos{
